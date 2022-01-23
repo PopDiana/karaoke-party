@@ -1,0 +1,42 @@
+.login {
+  background-image: url(https://th.bing.com/th/id/R.ddd6e8b5dd71ae5c3648119ec6919ffa?rik=jnjbsoP4cEJkdA&pid=ImgRaw&r=0);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+
+  @include respond(tab-land) {
+    margin-top: 0rem;
+    height: 100vh;
+  }
+}
+.logo {
+  height: 10vh;
+  max-width: 10vh;
+  margin-bottom: 2rem;
+  @include respond(phone) {
+    height: 10vh;
+  }
+}
+
+h2 {
+  text-align: center;
+  font-size: 7rem;
+  font-family: 'Orbitron', sans-serif;
+  color: rgba(255, 255, 255, 0.836);
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  background: -webkit-linear-gradient(-56deg, #8046e5 100%, #0590ff 55%, #fd4a8d 95%);
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 4px transparent;
+  @include respond(phone) {
+    font-size: 6.5rem;
+    color: rgba(255, 255, 255, 0.651);
+  }
+}

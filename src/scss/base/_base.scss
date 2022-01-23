@@ -1,0 +1,23 @@
+body {
+  background-color: #272526;
+
+  color: rgba(255, 255, 255, 0.671);
+  font-family: 'Josefin Sans';
+}
+html,
+body {
+  height: 110%;
+  margin: 0;
+  position: relative;
+}
+.wrapper {
+  min-height: 100%;
+}
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.toast-info {
+  background-color: #2f96b4;
+}

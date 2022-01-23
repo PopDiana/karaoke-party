@@ -1,0 +1,133 @@
+#chat,
+#chat:after,
+.chatbox {
+    transition: all 0.4s ease-in-out;
+}
+#chat,
+#close-chat,
+.minim-button,
+.maxi-button,
+.chat-text {
+    font-weight: 700;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+}
+
+#chat:after,
+#chat:before {
+    position: absolute;
+    content: "";
+}
+.chatbox {
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+    width: 270px;
+    height: 300px;
+    background: rgb(68, 36, 124);
+    border-bottom: none;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    padding: 28px 10px 10px;
+    z-index: 100000;
+}
+#minim-chat,
+#maxi-chat {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    line-height: 40px;
+    cursor: pointer;
+    z-index: 1;
+}
+.minim-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    width: 20px;
+    background: none;
+    color: rgba(255, 255, 255, 0.671);
+}
+.maxi-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    width: 20px;
+    background: none;
+    color: rgba(255, 255, 255, 0.671);
+}
+.chat-text {
+    top: 10px;
+    left: 15px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.671);
+    position: absolute;
+}
+#chat {
+    width: 40px;
+    padding: 2px 8px;
+    font-size: 12px;
+    background: #fff;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+#chat:before {
+    left: 7px;
+    bottom: -10px;
+}
+#chat:after {
+    left: 8px;
+    bottom: -8px;
+}
+.chat-message {
+    border-radius: 7px;
+    max-width: 200px;
+    margin-bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.521);
+}
+.chat-message-right {
+    margin-right: 0;
+    margin-left: auto;
+    background-color: #058fff79;
+}
+.chat-message-text {
+    padding: 5px;
+    word-break: break-all;
+}
+.chat-message-user {
+    padding: 5px;
+    text-align: right;
+    font-size: xx-small;
+}
+
+.messages {
+    padding-right: 10px;
+}
+
+.chat-input-wrap {
+    border-radius: .5rem;
+    width: 100%;
+    position: relative;
+    padding: 3px;
+}
+
+.message-form {
+    margin-top: 0.4rem;
+}
+
+#enter-message {
+    width: 100%;
+    height: 2.5rem;
+    background: #272526;
+    border: none;
+    color:rgba(255, 255, 255, 0.671);
+    padding-left: 1rem;
+}
+

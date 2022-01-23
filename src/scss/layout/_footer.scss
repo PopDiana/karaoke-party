@@ -1,0 +1,27 @@
+.footer {
+  height: 40px;
+  padding-top: 5px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #000000;
+  color: white;
+  text-align: center;
+}
+
+.logout {
+  padding-left: 10px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all .3s;
+
+  :hover {
+    transform: scale(1.5);
+  }
+}
+
+.home {
+  padding-right: 10px;
+  cursor: pointer;
+}
